@@ -63,15 +63,22 @@ function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
    x === 2;
-  y === 1;
-  return x / y;
+   y === 1;
+   return x / y;
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+   x === 2;
+   y === 3;
+
+   if (x === y){
+    return true;
+   } 
+   else 
+    return false;
 }
 
 function tienenMismaLongitud(str1, str2) {

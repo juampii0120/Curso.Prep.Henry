@@ -135,7 +135,7 @@ function redondearNumero(num) {
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  return Math.cel(num);
+  return Math.ceil(num);
   
 }
 
@@ -175,7 +175,7 @@ function obtenerSaludo(nombre) {
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
-  return alto + ancho;
+  return alto * ancho;
   
 }
 
@@ -193,7 +193,7 @@ function areaDelTriangulo(base, altura){
 
 
 function deEuroAdolar(euro){
-  return euro * 1,2;
+  return euro * 1.2;
   
 }
 
@@ -205,10 +205,10 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if (letra.length > 1)
-    return "Dato ingresado es incorrecto";
+    return "Dato incorrecto";
   if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u")
     return "Es vocal";
-  return "Dato ingresado es incorrecto";
+  return "Dato incorrecto";
   
 }
 
